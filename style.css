@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-image: url(tlo.png);
+    font-family: "Josefin Sans", sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+
+#wynik {
+    font-size: 60px;
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+#sekcja-guzik {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#guzik {
+    width: 657px;
+    height: auto;
+}
+
+button {
+    background: none;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+#guzik:active {
+    transform: scale(0.9); 
+    transition: transform 0.01s; 
+}
+
+.clicked {
+    transform: scale(1);
+    transition: transform 0.01s;
+}
+
+#cele {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
